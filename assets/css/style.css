@@ -17,6 +17,12 @@ ul li {
   list-style: none;
 }
 
+.hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
 .navbar-item img {
   margin: 50px;
 }
