@@ -190,11 +190,26 @@ ul li {
 }
 
 .has-text-primary {
-  color: #8C43FF !important;
+  color: #8C43FF;
+}
+
+.section4 figcaption{
+  text-align: center;
 }
 
 .section4 img{
   display: block;
   max-width: 245px;
   max-height: 368px;
+}
+
+.section4 .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 100%; 
+   margin-left: 12%;
+}
+
+.project-grid .column {
+   width: 65%;
 }
