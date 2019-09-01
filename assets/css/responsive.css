@@ -1,17 +1,130 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
 
+  .navbar-item img {
+    margin: 20px;
+  }
+
+  .navbar-menu .navbar-button {
+    float: right;
+    border: 2px solid #926dfa;
+    border-radius: 50px;
+    /* margin-top: -100px; */
+    margin-right: 50px;
+    padding: 15px;
+    width: 10%;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .navbar-button a {
+    color: #926dfa;
+    font-size: 18px;
+  }
+
+  .navbar-button:hover {
+    background-color: #926dfa;
+    color: #fff;
+    padding: 15px;
+    border: 2px solid #926dfa;
+    border-radius: 50px;
+  }
+
+  .navbar-button:hover a {
+    color: #fff;
+  }
+
+  .container #navMenu {
+    display: none;
+  }
+
+  .container a.icon {
+    color: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .hero-foot img {
+    max-width: 300px;
+  }
+
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .section2 .column {
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+  }
+
+  .section2 .columns .title {
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .section2 .columns .subtitle {
+    justify-content: center;
+    margin-left: 0px;
+    font-size: 1.0rem;
+  }
+
+  .section3 .columns {
+    display: block;
+    text-align: center;
+  }
+
+  .section4 img {
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .section4 .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    margin-left: 12%;
+  }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
