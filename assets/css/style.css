@@ -5,7 +5,10 @@
 }
 
 body {
-  max-width: 100%;
+  color: #293347;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
 
 a {
@@ -13,8 +16,34 @@ a {
   font-family: "europa", sans-serif;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
 ul li {
   list-style: none;
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 1rem;
+  height: 2.25em;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .hidden {
@@ -23,24 +52,80 @@ ul li {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.columns {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column {
+  padding: 0.75rem;
+}
+
+a.navbar-item,
+.navbar-link {
+  cursor: pointer;
+}
+
+.navbar-brand a.navbar-item:hover {
+  background-color: transparent;
+}
+
+.navbar-item {
+  color: #4a4a4a;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.navbar-item img {
+  max-height: 1.75rem;
+}
+
+.navbar .navbar-menu {
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 1px 0 0 #e6ecf8;
+  box-shadow: none;
+}
+
+.navbar > .container .navbar-brand,
+.container > .navbar .navbar-brand {
+  margin-left: -0.75rem;
+}
+
 .container a.icon {
   display: none;
 }
 
-.navbar-item img {
-  margin: 50px;
+.section4 .project-grid figure img,
+.section4 .project-grid .overlay {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
 }
 
-.navbar-menu .navbar-button {
-  float: right;
-  border: 2px solid #926dfa;
-  border-radius: 50px;
-  margin-top: -100px;
-  margin-right: 100px;
-  padding: 15px;
-  width: 10%;
-  text-align: center;
+.navbar .navbar-brand a.navbar-item img {
+  max-height: 3rem;
+  width: 52px;
+}
+
+.navbar .navbar-menu a.button.is-primary.is-outlined {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 1.2rem;
+}
+
+.navbar .navbar-menu .navbar-item {
+  font-size: 18px;
+  font-weight: 300;
+  color: #293347;
+}
+
+.button.is-primary.is-outlined {
   background-color: transparent;
+  border-color: #8c43ff;
+  color: #8c43ff;
 }
 
 .navbar-button a {
@@ -48,54 +133,57 @@ ul li {
   font-size: 18px;
 }
 
-.navbar-button:hover {
-  background-color: #926dfa;
-  color: #fff;
-  padding: 15px;
-  border: 2px solid #926dfa;
-  border-radius: 50px;
-}
-
-.navbar-button:hover a {
-  color: #fff;
-}
-
 .hero {
-  text-align: center;
+  padding-top: 2rem;
+}
+
+.hero-body {
+  max-width: 960px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+  margin-left: 10%;
+}
+
+.hero-foot {
+  padding: 0 1.5rem;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .title {
   font-family: "europa", sans-serif;
   color: #293347;
   font-weight: 800;
-  text-align: center;
+  font-size: 1.5rem;
+}
+
+.hero-body .title {
+  font-size: 3rem;
 }
 
 .subtitle {
   font-family: "europa", sans-serif;
   font-weight: 10;
-  line-height: 2.0;
-  font-size: 1.0rem;
+  line-height: 2;
+  font-size: 1rem;
   color: rgba(10, 10, 10, 0.9);
   margin-top: 20px;
   margin-bottom: 20px;
-  text-align: center;
+}
+
+.hero-body .subtitle {
+  font-size: 1.5rem;
 }
 
 .avatar {
+  margin: 2rem 0;
   width: 210px;
-  max-height: 210px;
-}
-
-.hero-foot img {
-  max-width: 860px;
 }
 
 .section2 {
   padding-bottom: 18rem;
-  background-color: #8C43FF;
-  text-align: center;
-  display: block;
+  background-color: #8c43ff;
 }
 
 .section2 h1,
@@ -105,29 +193,29 @@ ul li {
 
 .section2 .container {
   margin: 0 auto;
-  position: relative;
+}
+
+.column.is-three-fifths, {
+  flex: none;
+  width: 60%;
 }
 
 .section2 .column {
   padding: 70px;
 }
 
-.section2 .columns .title {
-  text-align: center;
+.section2 .columns .column .title {
   font-size: 2rem;
-  font-weight: 300;
   line-height: 1.5;
   font-family: "europa", sans-serif;
 }
 
-.section2 .columns .subtitle {
-  text-align: center;
-  width: 47%;
-  margin-left: 310px;
+.section2 .columns .column .subtitle {
+  font-size: 1.5rem;
 }
 
 .section2 .columns:last-child {
-  margin-bottom: -.75rem;
+  margin-bottom: -0.75rem;
 }
 
 .section3.skills {
@@ -148,10 +236,10 @@ ul li {
   position: relative;
 }
 
-.section3,.section4 {
+.section3,
+.section4 {
   padding: 5rem 1.5rem;
-  text-align: center;
-  font-family: "europa",sans-serif;
+  font-family: "europa", sans-serif;
 }
 
 .section.skills .box .content .columns .column {
@@ -160,31 +248,13 @@ ul li {
 
 .box {
   background-color: #fff;
-  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
   color: #293347;
-  display: block;
   border-radius: 12px;
-}
-
-.section3 .columns {
-  display: flex;
-  justify-content: center;
-}
-
-.section3 .column,.section4 .column {
-  display: block;
-  flex-basis: 0;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-direction: row;
-  justify-content: center;
-  font-family: "europa", sans-serif;
 }
 
 .section3.skills .box .content .columns .column {
   padding: 50px 30px;
-  border-bottom: 1px solid #E6ECF8;
-  border-right: 1px solid #E6ECF8;
 }
 
 .section3.skills .box .content .columns .column p.list-title {
@@ -192,63 +262,131 @@ ul li {
   margin-bottom: 8px;
 }
 
-.section.skills .box .content .columns .column:last-child {
-  border-right: none;
-  border-bottom: none;
-}
-
 .has-text-primary {
-  color: #8C43FF;
+  color: #8c43ff;
 }
 
-.section4 figcaption{
+.section4 {
+  padding: 9rem 1.5rem;
+}
+
+.container.is-narrow {
+  margin: 0 auto;
+}
+
+.section4 figcaption {
   text-align: center;
 }
 
-.section4 img{
-  max-width: 245px;
-  max-height: 368px;
+.section4 .project-grid {
+  padding: 2rem 0 4rem;
 }
 
 .project-grid figure figcaption h1.title {
   color: #fff;
   margin-bottom: 1.8rem;
   font-weight: 500;
+  font-size: 1.25rem;
+  font-family: "eurostile", sans-serif;
+  line-height: 1.125;
 }
 
-.section4 .project-grid .columns{
-  display: flex;
-  /* flex: wrap; */
-  margin-left: -.75rem;
-  margin-right: -.75rem;
-  margin-top: -.75rem;
+.section4 .project-grid figure img.project-thumb {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
 }
 
-.columns:last-child {
-  margin-bottom: -.75rem;
+.section4 .columns:last-child {
+  margin-bottom: -0.75rem;
 }
 
-.projects .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded {
-  margin: 0 auto;
-  font-size: 18px;
-  padding: 1.2rem;
-  font-weight: 400;
-  border-width: 2px;
-  color: #fff;
-}
-
-.projects .project-grid .overlay {
+.section4 .project-grid .overlay {
   background-color: #293347;
 }
 
-.projects .project-grid .overlay,
-.projects .project-grid figcaption {
+.section4 .project-grid .overlay,
+.section4 .project-grid figcaption {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: .45s ease-in-out;
-  transition: .45s ease-in-out;
+  -webkit-transition: 0.45s ease-in-out;
+  transition: 0.45s ease-in-out;
+}
+
+.section4 figcaption a,
+.section4 .dribble a.button {
+  border: 2px solid #926dfa;
+  background-color: transparent;
+}
+
+.section4 .dribble a.button {
+  padding: 0.5em 2em;
+  font-weight: 400;
+  border-width: 2px;
+  margin-top: 2rem;
+  background-color: transparent;
+  border-color: #8c43ff;
+  color: #8c43ff;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.navbar-item a.button:hover {
+  background-color: #926dfa;
+  color: #fff;
+  border: 2px solid #926dfa;
+}
+
+.section4 .project-grid figure figcaption a.button {
+  background-color: transparent;
+  border-color: #8c43ff;
+}
+
+.section4 .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded {
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 5px;
+  font-weight: 400;
+  border-width: 2px;
+  color: #fff;
+}
+
+.section4 .dribble a.button:hover {
+  padding: 0.5em 2em;
+}
+
+.section4 .dribble a.button:hover,
+.section4 .project-grid figure figcaption a.button:hover {
+  background-color: #926dfa;
+  color: #fff;
+  padding: 5px;
+  border: 2px solid #926dfa;
+}
+
+.section4 .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded span.icon {
+  margin-top: 0;
+  margin-left: 2px;
+}
+
+.section4 .dribble.column a.icon:hover {
+  color: #fff;
+}
+
+.section4 .project-grid figure figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3rem;
+  color: #fff;
+  z-index: 1;
+}
+
+.section4 .project-grid figure:hover .overlay,
+.section4 .project-grid figure:hover figcaption {
+  opacity: 1;
 }

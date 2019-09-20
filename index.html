@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="en-US"> 
+ <html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assets/images/logo.png" rel="shortcut icon" type="image/png">
     <link rel="stylesheet" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css"/>
     <link rel="stylesheet" href="assets/css/responsive.css"/>
     <link rel="stylesheet" href="assets/css/fonts.css"/>
@@ -17,38 +18,44 @@
   <body>
     <header>
     <h1 class="hidden">hello</h1>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/"><img src="assets/images/logo.png"
-              alt="Damilola Ale | Tech Savvy &amp; Software Developer" height="48"></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light is-transparent" role="navigation" aria-label="main navigation">
+      <div class="container row">
+        <div class="navbar-brand align-content-start col-6">
+          <a class="navbar-item position-relative d-flex align-items-center" href="#">
+            <img src="assets/images/logo.png"
+              alt="Damilola Ale | Tech Savvy, Software Developer &amp; Mentor" width="52" height="48"></a>
               <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="#navMenu">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-              </a>
-          </div>
-        <div class="navbar-menu" id="navMenu">
-          <div class="navbar-start"></div>
-          <button class="navbar-button bar1"><a class="button" href="#"><h4>Say Hello</h4></a>
-          </button>
-        </div>
-          <a href="event.preventDefault();" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
           </a>
         </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="navbar-menu text-center justify-content-end align-items-end col-6 align-content-end collapse navbar-collapse" id="navMenu navbarToggler">
+            <ul class="navbar-nav mt-2 mt-lg-0">
+              <div class="navbar-end justify-content-end row">
+              <a class="navbar-item position-relative d-flex align-items-center col-6" href="#">Mentorship</a>
+              <div class="navbar-item position-relative d-flex align-items-center col-6">
+                <a class="button d-inline-flex is-primary is-outlined is-rounded rounded-pill" href="#">Say Hello</a>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
     </nav>
     </header>
     <main>
-    <section class="hero">
-        <div class="hero-body">
+    <section class="hero d-flex justify-content-between flex-column">
+        <div class="hero-body text-center">
           <div class="container">
-            <div class="columns">
-              <div class="column">
-                <h1 class="title">Tech Savvy &amp; Software Developer
+            <div class="columns d-flex justify-content-center">
+              <div class="column d-block">
+                <h1 class="title text-center">Tech Savvy &amp; Software Developer
                 </h1>
-                <h2 class="subtitle">I code beautifully simple things, and I love what I do.</h2><img
-                  class="avatar" src="assets/images/2598397.jpg">
+                <h2 class="subtitle text-center">I code beautifully simple things, and I love what I do.</h2>
+                <img class="avatar" src="assets/images/2598397.jpg">
               </div>
             </div>
           </div>
@@ -57,29 +64,30 @@
           <div class="container"><img class="is-bottom" src="assets/images/hero.png"></div>
         </div>
       </section>
-      <section class="section2">
-        <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <h1 class="title">Hi, I’m Damie. Nice to meet you.</h1>
-                    <h2 class="subtitle">Since beginning my journey as a developer a year ago, I'm attending a remote school for developers,collaborating with talented people to work on projects.
+      <section class="section2 d-block text-center">
+        <div class="container position-relative">
+            <div class="columns d-flex justify-content-center">
+                <div class="column d-block is-three-fifths">
+                    <h1 class="title text-center">Hi, I’m Damie. Nice to meet you.</h1>
+                    <h2 class="subtitle text-center">Since beginning my journey as a developer a year ago, I'm attending a remote school for developers,collaborating with talented people to work on projects.
                         I'm quietly confident, naturally curious, and perpetually working on improving myself.</h2>
                 </div>
             </div>
         </div>
     </section>
-        <section class="section3 skills">
-          <div class="container">
-            <div class="box">
+        <section class="section3 text-center skills">
+          <div class="container is-narrow">
+            <div class="box d-block">
               <div class="content">
-                <div class="columns">
-                  <div class="column">
-                    <figure class="image"><img class="is-skill-icon" src="assets/images/designer.svg"></figure>
-                    <h1 class="title">Designer</h1>
+                <div class="columns d-flex row justify-content-center">
+                  <div class="column col-12 col-lg-4 d-block border-bottom border-right-lg justify-content-center">
+                    <figure class="image">
+                      <img class="is-skill-icon" src="assets/images/designer.svg"></figure>
+                    <h1 class="title text-center">Designer</h1>
                     <p>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
-                    <p class="list-title has-text-primary has-text-weight-normal">Things I enjoy designing:</p>
+                    <p class="list-title text-center has-text-primary has-text-weight-normal">Things I enjoy designing:</p>
                     <p>UX, UI, Web, Mobile, Apps, Logos</p>
-                    <p class="list-title has-text-primary has-text-weight-normal">Design Tools:</p>
+                    <p class="list-title text-center has-text-primary has-text-weight-normal">Design Tools:</p>
                     <ul>
                       <li>Balsamiq Mockups</li>
                       <li>Figma</li>
@@ -91,13 +99,14 @@
                       <li>Zeplin</li>
                     </ul>
                   </div>
-                  <div class="column">
-                    <figure class="image"><img class="is-skill-icon" src="assets//images/frontend.svg"></figure>
-                    <h1 class="title is-size-4 is-spaced">Software Developer</h1>
+                  <div class="column col-12 col-lg-4 d-block border-bottom border-right-lg justify-content-center">
+                    <figure class="image">
+                      <img class="is-skill-icon" src="assets//images/frontend.svg"></figure>
+                    <h1 class="title text-center is-size-4 is-spaced">Software Developer</h1>
                     <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                    <p class="list-title has-text-primary has-text-weight-normal">Languages I speak:</p>
+                    <p class="list-title text-center has-text-primary has-text-weight-normal">Languages I speak:</p>
                     <p>HTML, CSS </p>
-                    <p class="list-title has-text-primary has-text-weight-normal">Dev Tools:</p>
+                    <p class="list-title text-center has-text-primary has-text-weight-normal">Dev Tools:</p>
                     <ul>
                       <li>Visual Studio Code</li>
                       <li>Heroku</li>
@@ -110,13 +119,14 @@
                       <li>Terminal</li>
                     </ul>
                   </div>
-                  <div class="column">
-                    <figure class="image"><img class="is-skill-icon" src="assets/images/mentor.svg"></figure>
-                    <h1 class="title is-size-4 is-spaced">Mentor</h1>
+                  <div class="column col-12 col-lg-4 d-block justify-content-center">
+                    <figure class="image">
+                      <img class="is-skill-icon" src="assets/images/mentor.svg"></figure>
+                    <h1 class="title text-center is-size-4 is-spaced">Mentor</h1>
                     <p>I genuinely care about people, and love helping fellow designers work on their craft.</p>
-                    <p class="list-title has-text-primary has-text-weight-normal">Experiences I draw from:</p>
+                    <p class="list-title text-center has-text-primary has-text-weight-normal">Experiences I draw from:</p>
                     <p>UX/UI, Product design, Freelancing</p>
-                    <p class="list-title has-text-primary has-text-weight-normal">Mentor Stats:</p>
+                    <p class="list-title text-center has-text-primary has-text-weight-normal">Mentor Stats:</p>
                     <ul>
                       <li>4 years experience</li>
                       <li>26 short courses</li>
@@ -132,91 +142,123 @@
             </div>
           </div>
         </section>
-         <section class="section4 projects">
-           <div class="container is-narrow">
-             <h1 class="title project-title is-spaced">My Recent Work</h1>
-             <h2 class="subtitle project-subtitle">Here are a few recent design projects. Want to see more? <a
+         <section class="section4 text-center projects">
+           <div class="container is-narrow position-relative">
+             <h1 class="title text-center project-title is-spaced">My Recent Work</h1>
+             <h2 class="subtitle text-center project-subtitle">Here are a few recent design projects. Want to see more? <a
                  href="#">Email me</a>.</h2>
-             <div class="project-grid">
-               <div class="columns">
-                 <div class="column">
-                   <figure class="image is-3by2"><img class="project-thumb" src="assets/images/awg2020.png">
+             <div class="project-grid row">
+               <div class="columns d-flex flex-wrap">
+                 <div class="column col-12 col-lg-4 d-block justify-content-center">
+                   <figure class="image is-3by2">
+                     <img class="project-thumb" src="assets/images/awg2020.png" width="480" height="320">
                      <figcaption>
-                       <h1 class="title">Uniting First Nations culture and community
-                         through winter sports competition.</h1><a class="button.is-primary.is-outlined.is-rounded"
-                         href="http://awg2020.org/" target="_blank"><span>Visit Website</span><span class="icon"><i
-                             class="fas fa-angle-right"></i></span></a>
+                       <h1 class="title text-center">Uniting First Nations culture and community
+                         through winter sports competition.</h1>
+                         <a class="button is-primary is-outlined is-rounded rounded-pill" href="#" target="_blank">
+                           <span>Visit Website</span>
+                           <span class="icon d-inline-flex align-items-center justify-content-center">
+                             <i class="fas fa-angle-right"></i>
+                           </span>
+                         </a>
                      </figcaption>
                      <div class="overlay"></div>
                    </figure>
                  </div>
-                 <div class="column">
-                   <figure class="image is-3by2"><img class="project-thumb" src="assets/images/chronicled.png">
+                 <div class="column col-12 col-lg-4 d-block justify-content-center">
+                   <figure class="image is-3by2"><img class="project-thumb" src="assets/images/chronicled.png" width="480" height="320">
                      <figcaption>
-                       <h1 class="title">Blockchain pioneers bringing transparency,
-                         trust, and security to supply.</h1><a class="button.is-primary.is-outlined.is-rounded"
-                         href="https://www.chronicled.org/" target="_blank"><span>Visit Website</span><span
-                           class="icon"><i class="fas fa-angle-right"></i></span></a>
+                       <h1 class="title text-center">Blockchain pioneers bringing transparency,
+                         trust, and security to supply.</h1>
+                         <a class="button is-primary is-outlined is-rounded rounded-pill" href="https://www.chronicled.org/" target="_blank">
+                           <span>Visit Website</span>
+                           <span class="icon d-inline-flex align-items-center justify-content-center">
+                             <i class="fas fa-angle-right"></i>
+                           </span>
+                         </a>
                      </figcaption>
                      <div class="overlay"></div>
                    </figure>
                  </div>
-                 <div class="column">
-                   <figure class="image is-3by2"><img class="project-thumb" src="assets/images/glcsolutions.png">
+                 <div class="column col-12 col-lg-4 d-block justify-content-center">
+                   <figure class="image is-3by2">
+                     <img class="project-thumb" src="assets/images/glcsolutions.png" width="480" height="320">
                      <figcaption>
-                       <h1 class="title">Business savvy tech experts helping forward
-                         thinking companies get things done.</h1><a class="button.is-primary.is-outlined.is-rounded"
-                         href="http://glcsolutions.ca"><span>Visit Website</span><span class="icon"><i
-                             class="fas fa-angle-right"></i></span></a>
+                       <h1 class="title text-center">Business savvy tech experts helping forward
+                         thinking companies get things done.</h1>
+                         <a class="button is-primary is-outlined is-rounded rounded-pill" href="http://glcsolutions.ca">
+                         <span>Visit Website</span>
+                         <span class="icon d-inline-flex align-items-center justify-content-center">
+                           <i class="fas fa-angle-right"></i>
+                           </span>
+                         </a>
                      </figcaption>
                      <div class="overlay"></div>
                    </figure>
                  </div>
-                 <div class="column">
-                   <figure class="image is-3by2"><img class="project-thumb" src="assets/images/coupal.png">
+                 <div class="column col-12 col-lg-4 d-block justify-content-center">
+                   <figure class="image is-3by2">
+                     <img class="project-thumb" src="assets/images/coupal.png" width="480" height="320">
                      <figcaption>
-                       <h1 class="title">Vancouver's tower crane rental service and
-                         support leader since 1974.</h1><a class="button.is-primary.is-outlined.is-rounded"
-                         href="http://coupalcranes.com/" target="_blank"><span>Visit Website</span><span class="icon"><i
-                             class="fas fa-angle-right"></i></span></a>
+                       <h1 class="title text-center">Vancouver's tower crane rental service and
+                         support leader since 1974.</h1>
+                         <a class="button is-primary is-outlined is-rounded rounded-pill" href="http://coupalcranes.com/" target="_blank">
+                           <span>Visit Website</span>
+                           <span class="icon d-inline-flex align-items-center justify-content-center">
+                             <i class="fas fa-angle-right"></i>
+                           </span>
+                         </a>
                      </figcaption>
                      <div class="overlay"></div>
                    </figure>
                  </div>
-                 <div class="column">
-                   <figure class="image is-3by2"><img class="project-thumb" src="assets/images/wedlerengineering.png">
+                 <div class="column d-block col-12 col-lg-4 d-block justify-content-center">
+                   <figure class="image is-3by2">
+                     <img class="project-thumb" src="assets/images/wedlerengineering.png" width="480" height="320">
                      <figcaption>
-                       <h1 class="title">Results-oriented, responsive and flexible full
-                         service civil engineering firm.</h1><a class="button.is-primary.is-outlined.is-rounded"
-                         href="http://wedler.com" target="_blank"><span>View Website</span><span class="icon"><i
-                             class="fas fa-angle-right"></i></span></a>
+                       <h1 class="title text-center">Results-oriented, responsive and flexible full
+                         service civil engineering firm.</h1><a class="button is-primary is-outlined is-rounded rounded-pill" href="#" target="_blank">
+                           <span>View Website</span>
+                           <span class="icon d-inline-flex align-items-center justify-content-center">
+                             <i class="fas fa-angle-right"></i>
+                           </span>
+                         </a>
                      </figcaption>
                      <div class="overlay"></div>
                    </figure>
                  </div>
-                 <div class="column">
-                   <figure class="image is-3by2"><img class="project-thumb"
-                       src="assets/images/southwestforestproducts.png">
+                 <div class="column d-block col-12 col-lg-4 d-block justify-content-center">
+                   <figure class="image is-3by2">
+                     <img class="project-thumb" src="assets/images/southwestforestproducts.png" width="480" height="320">
                      <figcaption>
-                       <h1 class="title">Custom lumber product supplier serving the
-                         Canadian construction industry.</h1><a class="button.is-primary.is-outlined.is-rounded"
-                         href="#" target="_blank"><span>Visit Website</span><span class="icon"><i
-                             class="fas fa-angle-right"></i></span></a>
+                       <h1 class="title text-center">Custom lumber product supplier serving the
+                         Canadian construction industry.</h1>
+                         <a class="button is-primary is-outlined is-rounded rounded-pill" href="#" target="_blank">
+                           <span>Visit Website</span>
+                           <span class="icon d-inline-flex align-items-center justify-content-center">
+                             <i class="fas fa-angle-right"></i>
+                           </span>
+                         </a>
                      </figcaption>
                      <div class="overlay"></div>
                    </figure>
                  </div>
                </div>
              </div>
-             <div class="columns is-centered">
-               <div class="column"><a class="button" href="#"><span
-                     class="icon"><i class="fab fa-dribbble"></i></span><span>See more on Dribbble</span></a></div>
+             <div class="columns d-flex justify-content-center dribble">
+               <div class="column d-block">
+                 <a class="button rounded-pill text-center" href="#">
+                 <span class="icon d-inline-flex align-items-center justify-content-center">
+                   <i class="fab fa-dribbble"></i>
+                  </span>
+                   <span>See more on Dribbble</span>
+                  </a>
+                </div>
              </div>
            </div>
          </section>
         </main>
         <script src="assets/js/index.js"></script>
         <script src="assets/js/lightbox-plus-jquery.min.js"></script>
-        <script src="assets/js/prefixfree.min.js"></script>
   </body>
 </html>
