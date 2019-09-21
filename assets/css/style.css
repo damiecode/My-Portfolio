@@ -296,12 +296,6 @@ footer .title {
   text-align: center;
 }
 
-footer .social-icons a.button:hover {
-  background: #fff;
-  color: #8c43ff;
-  border: 2px solid #fff;
-}
-
 .section4 .project-grid {
   padding: 2rem 0 4rem;
 }
@@ -393,6 +387,12 @@ footer .social-icons a.button {
   background-color: #926dfa;
   color: #fff;
   border: 2px solid #926dfa;
+}
+
+footer .social-icons a.button:hover {
+  background: #fff;
+  color: #8c43ff;
+  border: 2px solid #fff;
 }
 
 .section4 .project-grid figure figcaption a.button {
