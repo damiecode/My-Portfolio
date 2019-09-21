@@ -81,6 +81,10 @@ a.navbar-item,
   flex-shrink: 0;
 }
 
+.navbar-toggler-icon {
+  color: #8c43ff;
+}
+
 .navbar-item img {
   max-height: 1.75rem;
 }
