@@ -200,6 +200,6 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-close:hover {
   cursor: pointer;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  filter: progid:dximagetransform.microsoft.alpha(Opacity=100);
   opacity: 1;
 }
