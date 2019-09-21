@@ -160,7 +160,7 @@ a.navbar-item,
   font-size: 1.5rem;
 }
 
-.section p {
+footer.section ul {
   margin-bottom: 2rem;
 }
 
@@ -348,7 +348,6 @@ footer .social-icons a.button {
   background-color: transparent;
   color: #fff;
   border-radius: 100%;
-  margin: 0 0.6rem;
   border: 2px solid rgba(255, 255, 255, 0.3);
   font-size: 1.18rem;
 }
