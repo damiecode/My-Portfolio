@@ -9,6 +9,7 @@ body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
+  font-family: "europa", sans-serif;
 }
 
 a {
@@ -18,6 +19,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #926dfa;
 }
 
 img {
@@ -158,6 +160,18 @@ a.navbar-item,
   font-size: 1.5rem;
 }
 
+.section p {
+  margin-bottom: 2rem;
+}
+
+footer .title {
+  font-weight: 300;
+  font-size: 1.6rem;
+  margin: 2rem auto;
+  max-width: 300px;
+  opacity: 0.7;
+}
+
 .hero-body .title {
   font-size: 3rem;
 }
@@ -181,9 +195,18 @@ a.navbar-item,
   width: 210px;
 }
 
+.section {
+  padding: 5rem 1.5rem;
+}
+
 .section2 {
   padding-bottom: 18rem;
   background-color: #8c43ff;
+}
+
+.section.is-primary {
+  background-color: #8c43ff;
+  color: #fff;
 }
 
 .section2 h1,
@@ -193,11 +216,6 @@ a.navbar-item,
 
 .section2 .container {
   margin: 0 auto;
-}
-
-.column.is-three-fifths, {
-  flex: none;
-  width: 60%;
 }
 
 .section2 .column {
@@ -211,7 +229,7 @@ a.navbar-item,
 }
 
 .section2 .columns .column .subtitle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .section2 .columns:last-child {
@@ -278,6 +296,12 @@ a.navbar-item,
   text-align: center;
 }
 
+footer .social-icons a.button:hover {
+  background: #fff;
+  color: #8c43ff;
+  border: 2px solid #fff;
+}
+
 .section4 .project-grid {
   padding: 2rem 0 4rem;
 }
@@ -318,6 +342,23 @@ a.navbar-item,
   transition: 0.45s ease-in-out;
 }
 
+.callout a.button {
+  padding: 0.5em 2em;
+}
+
+.call-to-action a.button {
+  padding: 0.5em 2em;
+}
+
+footer .social-icons a.button {
+  background-color: transparent;
+  color: #fff;
+  border-radius: 100%;
+  margin: 0 0.6rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  font-size: 1.18rem;
+}
+
 .section4 figcaption a,
 .section4 .dribble a.button {
   border: 2px solid #926dfa;
@@ -342,9 +383,34 @@ a.navbar-item,
   border: 2px solid #926dfa;
 }
 
+.callout a.button:hover {
+  background-color: #926dfa;
+  color: #fff;
+  border: 2px solid #926dfa;
+}
+
+.call-to-action a.button:hover {
+  background-color: #926dfa;
+  color: #fff;
+  border: 2px solid #926dfa;
+}
+
 .section4 .project-grid figure figcaption a.button {
   background-color: transparent;
   border-color: #8c43ff;
+}
+
+.section4 .dribble a.button:hover {
+  background-color: #926dfa;
+  color: #fff;
+  border: 2px solid #926dfa;
+  padding: 0.5em 2em;
+}
+
+.section4 .project-grid figure figcaption a.button:hover {
+  background-color: #926dfa;
+  color: #fff;
+  border: 2px solid #926dfa;
 }
 
 .section4 .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded {
@@ -354,18 +420,6 @@ a.navbar-item,
   font-weight: 400;
   border-width: 2px;
   color: #fff;
-}
-
-.section4 .dribble a.button:hover {
-  padding: 0.5em 2em;
-}
-
-.section4 .dribble a.button:hover,
-.section4 .project-grid figure figcaption a.button:hover {
-  background-color: #926dfa;
-  color: #fff;
-  padding: 5px;
-  border: 2px solid #926dfa;
 }
 
 .section4 .project-grid figure figcaption a.button.is-primary.is-outlined.is-rounded span.icon {
@@ -389,4 +443,75 @@ a.navbar-item,
 .section4 .project-grid figure:hover .overlay,
 .section4 .project-grid figure:hover figcaption {
   opacity: 1;
+}
+
+.section5 {
+  padding-bottom: 13rem;
+}
+
+.section.startups {
+  padding-bottom: 9rem;
+  margin-top: -14rem;
+}
+
+.section.call-to-action .box {
+  padding: 3.5rem 1.25rem;
+  margin-top: -9rem;
+  background-color: #293347;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #293347;
+}
+
+.section.startups .startup-grid .box {
+  padding: 60px 35px;
+}
+
+.section.startups .startup-grid .box p {
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.section.startups .startup-grid .box img.logo {
+  height: 42px;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.section.startups .startup-grid .box a.link {
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+}
+
+footer .social-icons {
+  margin: 0 auto 3.5rem;
+}
+
+footer .copyright {
+  opacity: 0.7;
+}
+
+footer .social-icons a.button .icon.is-small {
+  width: 1.4em;
+  height: 1.4em;
+}
+
+footer .social-icons a.button.is-medium {
+  font-size: 1.18rem;
+}
+
+.fa-fw {
+  width: 1.25em;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+
+footer .copyright .icon {
+  margin-top: -1px;
+  margin-left: 1px;
 }
