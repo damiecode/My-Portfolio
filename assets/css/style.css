@@ -144,11 +144,10 @@ a.navbar-item,
 }
 
 .hero-body {
-  max-width: 960px;
+  max-width: 100%;
   flex-grow: 1;
   flex-shrink: 0;
   padding: 3rem 1.5rem;
-  margin-left: 10%;
 }
 
 .hero-foot {
