@@ -17,7 +17,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://damiecode.github.io/My-Portfolio)
+[Live Demo Link](https://damiecodes.netlify.app/)
 
 
 ## Getting Started

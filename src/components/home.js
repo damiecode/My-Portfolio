@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    <section id="colorlib-hero" className="js-fullheight" data-section="home">
+    <section id="portfolio-hero" className="js-fullheight" data-section="home">
       <div className="flexslider js-fullheight">
         <ul className="slides">
           <li style={{ backgroundImage: 'url(images/img_bg_1.jpg)' }}>

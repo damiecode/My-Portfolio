@@ -8,10 +8,10 @@ import Home from './components/home';
 // import Timeline from './components/timeline';
 
 const App = () => (
-  <div id="colorlib-page">
+  <div id="portfolio-page">
     <div id="container-wrap">
       <Sidebar />
-      <div id="colorlib-main">
+      <div id="portfolio-main">
         <Home />
         {/* <About />
             <Projects />
