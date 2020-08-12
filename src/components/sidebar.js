@@ -28,7 +28,6 @@ const Sidebar = () => (
         </nav>
         <nav id="colorlib-main-menu">
           <ul>
-            <li><a href="https://www.facebook.com/dhruv.barochia" target="_blank" rel="noopener noreferrer"><i className="icon-facebook2" /></a></li>
             <li><a href="https://twitter.com/iamlildamski" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
             <li><a href="https://www.instagram.com/dam_eva/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
             <li><a href="https://www.linkedin.com/in/damiecode/" target="_blank" rel="noopener noreferrer"><i className="icon-linkedin2" /></a></li>
