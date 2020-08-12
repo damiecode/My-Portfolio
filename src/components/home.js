@@ -42,7 +42,7 @@ const Home = () => (
                         a FullStack Software Engineer
                       </h1>
                       <p>
-                        <a className="btn btn-primary btn-learn" href="#">
+                        <a className="btn btn-primary btn-learn" href="https://damiecodes.netlify.app/">
                           View Portfolio
                           <em className="icon-briefcase3" />
                         </a>
