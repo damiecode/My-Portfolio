@@ -37,14 +37,21 @@ const Education = () => (
                       </div>
                       <div className="col-md-6">
                         <p>
-                          - Learned the basics of Computer Science, Engineering and Economics.
-                          - Majored in Computer Science and offered courses like
-                          Introduction to computer science, OOP in Java, Principle of compilers,
-                          Software engineering, Human-computer interaction,
-                          Artificial intelligence and so on.
-                          - Minored in Economics and offered courses like Introduction to Economics,
-                          Micro and Macro Economics, Development Economics,
-                          Organizational behaviour and so on.
+                          <li>
+                            Learned the basics of Computer Science,
+                            Engineering and Economics.
+                          </li>
+                          <li>
+                            Majored in Computer Science and offered courses like
+                            Introduction to computer science, OOP in Java, Principle of compilers,
+                            Software engineering, Human-computer interaction,
+                            Artificial intelligence and so on.
+                          </li>
+                          <li>
+                            Minored in Economics and offered courses like Introduction to Economics,
+                            Micro and Macro Economics, Development Economics,
+                            Organizational behaviour and so on.
+                          </li>
                         </p>
                       </div>
                     </div>
@@ -63,6 +70,7 @@ const Education = () => (
                   <div className="panel-body">
                     <p>
                       1300+ hours of
+                      {' '}
                       <strong>programming</strong>
                       . Real-life projects created with Ruby on Rails,
                       React/Redux, HTML/CSS through remote pair programming

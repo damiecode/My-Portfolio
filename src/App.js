@@ -5,7 +5,7 @@ import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
 import Education from './components/education';
-// import Timeline from './components/timeline';
+import Contact from './components/contact';
 
 const App = () => (
   <div id="portfolio-page">
@@ -16,8 +16,7 @@ const App = () => (
         <About />
         <Projects />
         <Education />
-        {/*   <Blog />
-            <Timeline /> */}
+        <Contact />
       </div>
     </div>
   </div>
