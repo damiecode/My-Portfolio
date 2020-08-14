@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 const Projects = () => (
@@ -12,7 +14,7 @@ const Projects = () => (
         </div>
         <div className="row">
           <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-            <div className="project" style={{ backgroundImage: 'url(images/img-1.jpg)' }}>
+            <div className="project" style={{ backgroundImage: 'url(images/img-1.png)' }}>
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Work 01</a></h3>
@@ -20,19 +22,19 @@ const Projects = () => (
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
-                          <a href="#">
-                            <i className="icon-eye" />
-                            {' '}
-                            100
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-eye" />
+                        {' '}
+                        100
+                      </a>
+                    </span>
                     <span>
-                          <a href="#">
-                            <i className="icon-heart" />
-                            {' '}
-                            49
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-heart" />
+                        {' '}
+                        49
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -47,19 +49,19 @@ const Projects = () => (
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
-                          <a href="#">
-                            <i className="icon-eye" />
-                            {' '}
-                            100
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-eye" />
+                        {' '}
+                        100
+                      </a>
+                    </span>
                     <span>
-                          <a href="#">
-                            <i className="icon-heart" />
-                            {' '}
-                            49
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-heart" />
+                        {' '}
+                        49
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -74,19 +76,19 @@ const Projects = () => (
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
-                          <a href="#">
-                            <i className="icon-eye" />
-                            {' '}
-                            100
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-eye" />
+                        {' '}
+                        100
+                      </a>
+                    </span>
                     <span>
-                          <a href="#">
-                            <i className="icon-heart" />
-                            {' '}
-                            49
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-heart" />
+                        {' '}
+                        49
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -101,19 +103,19 @@ const Projects = () => (
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
-                          <a href="#">
-                            <i className="icon-eye" />
-                            {' '}
-                            100
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-eye" />
+                        {' '}
+                        100
+                      </a>
+                    </span>
                     <span>
-                          <a href="#">
-                            <i className="icon-heart" />
-                            {' '}
-                            49
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-heart" />
+                        {' '}
+                        49
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -128,19 +130,19 @@ const Projects = () => (
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
-                          <a href="#">
-                            <i className="icon-eye" />
-                            {' '}
-                            100
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-eye" />
+                        {' '}
+                        100
+                      </a>
+                    </span>
                     <span>
-                          <a href="#">
-                            <i className="icon-heart" />
-                            {' '}
-                            49
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-heart" />
+                        {' '}
+                        49
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -155,19 +157,19 @@ const Projects = () => (
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
-                          <a href="#">
-                            <i className="icon-eye" />
-                            {' '}
-                            100
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-eye" />
+                        {' '}
+                        100
+                      </a>
+                    </span>
                     <span>
-                          <a href="#">
-                            <i className="icon-heart" />
-                            {' '}
-                            49
-                          </a>
-                        </span>
+                      <a href="#">
+                        <i className="icon-heart" />
+                        {' '}
+                        49
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
