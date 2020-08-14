@@ -89,7 +89,7 @@ class Contact extends React.Component {
                       <textarea name="" id="message" cols="30" rows="7" className="form-control" placeholder="Message" />
                     </div>
                     <div className="form-group">
-                      {status === 'SUCCESS' ? <p>Thanks!</p> : <button type="button" className="btn btn-primary btn-send-message">Send Message</button>}
+                      {status === 'SUCCESS' ? <p>Thanks!</p> : <input type="submit" className="btn btn-primary btn-send-message" value="Send Message" />}
                       {status === 'ERROR' && <p>Ooops! There was an error.</p>}
                     </div>
                   </form>
