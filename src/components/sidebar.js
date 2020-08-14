@@ -37,6 +37,22 @@ const Sidebar = () => (
           </ul>
         </nav>
       </aside>
+      <div className="portfolio-footer">
+        <p>
+          <small>
+            &copy;
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script>
+            {' '}
+            All rights reserved | Developed
+            <i className="icon-heart" aria-hidden="true" />
+            {' '}
+            by
+            {' '}
+            <a href="https://damiecodes.netlify.app/" target="_blank" rel="noreferrer">Damilola Ale</a>
+          </small>
+        </p>
+      </div>
     </div>
   </div>
 );
