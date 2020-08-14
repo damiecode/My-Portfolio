@@ -4,7 +4,7 @@ import Sidebar from './components/sidebar';
 import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
-// import Blog from './components/blog';
+import Education from './components/education';
 // import Timeline from './components/timeline';
 
 const App = () => (
@@ -15,6 +15,7 @@ const App = () => (
         <Home />
         <About />
         <Projects />
+        <Education />
         {/*   <Blog />
             <Timeline /> */}
       </div>
