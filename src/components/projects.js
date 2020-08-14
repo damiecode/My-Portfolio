@@ -41,7 +41,7 @@ const Projects = () => (
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-            <div className="project" style={{ backgroundImage: 'url(images/img-2.jpg)' }}>
+            <div className="project" style={{ backgroundImage: 'url(images/img-2.png)' }}>
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Work 02</a></h3>
@@ -68,7 +68,7 @@ const Projects = () => (
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInTop">
-            <div className="project" style={{ backgroundImage: 'url(images/img-3.jpg)' }}>
+            <div className="project" style={{ backgroundImage: 'url(images/img-3.png)' }}>
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Work 03</a></h3>
@@ -95,7 +95,7 @@ const Projects = () => (
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInBottom">
-            <div className="project" style={{ backgroundImage: 'url(images/img-4.jpg)' }}>
+            <div className="project" style={{ backgroundImage: 'url(images/img-4.png)' }}>
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Work 04</a></h3>
@@ -122,7 +122,7 @@ const Projects = () => (
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-            <div className="project" style={{ backgroundImage: 'url(images/img-5.jpg)' }}>
+            <div className="project" style={{ backgroundImage: 'url(images/img-5.png)' }}>
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Work 05</a></h3>
@@ -149,7 +149,7 @@ const Projects = () => (
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInRight">
-            <div className="project" style={{ backgroundImage: 'url(images/img-6.jpg)' }}>
+            <div className="project" style={{ backgroundImage: 'url(images/img-6.png)' }}>
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Work 06</a></h3>
