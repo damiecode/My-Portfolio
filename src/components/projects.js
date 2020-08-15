@@ -107,19 +107,12 @@ const Projects = () => (
                     It uses Stateful component which are defined using a class.
                   </span>
                   <p className="icon">
-                    <span><a href="#"><i className="icon-share3" /></a></span>
+                    <span><a href="https://github.com/damiecode/maths-magicians-app"><i className="icon-link" /></a></span>
                     <span>
-                      <a href="#">
+                      <a href="https://maths-magicians-app.herokuapp.com">
                         <i className="icon-eye" />
                         {' '}
                         100
-                      </a>
-                    </span>
-                    <span>
-                      <a href="#">
-                        <i className="icon-heart" />
-                        {' '}
-                        49
                       </a>
                     </span>
                   </p>
