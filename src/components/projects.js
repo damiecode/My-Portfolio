@@ -18,21 +18,21 @@ const Projects = () => (
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Resturant Page</a></h3>
-                  <span>Website</span>
+                  <span>A Restaurant page which is built using only Javascript.</span>
                   <p className="icon">
-                    <span><a href="#"><i className="icon-share3" /></a></span>
+                    <span><a href="https://github.com/damiecode/Restaurant-Page"><i className="icon-link" /></a></span>
                     <span>
-                      <a href="#">
+                      <a href="https://rawcdn.githack.com/damiecode/Restaurant-Page/77bf25f144f23c3e09cfadf76c6dd9d7c8c9059f/dist/index.html">
                         <i className="icon-eye" />
                         {' '}
-                        100
+                        10
                       </a>
                     </span>
                     <span>
                       <a href="#">
-                        <i className="icon-heart" />
+                        <i className="icon-star" />
                         {' '}
-                        49
+                        5
                       </a>
                     </span>
                   </p>
@@ -50,19 +50,19 @@ const Projects = () => (
                     on queried location(s) via API from openweathermap.
                   </span>
                   <p className="icon">
-                    <span><a href="#"><i className="icon-share3" /></a></span>
+                    <span><a href="https://rawcdn.githack.com/damiecode/Weather-App/feature/weatherApp/dist/index.html"><i className="icon-link" /></a></span>
                     <span>
-                      <a href="#">
+                      <a href="https://github.com/damiecode/Weather-App">
                         <i className="icon-eye" />
                         {' '}
-                        100
+                        10
                       </a>
                     </span>
                     <span>
                       <a href="#">
-                        <i className="icon-heart" />
+                        <i className="icon-star" />
                         {' '}
-                        49
+                        5
                       </a>
                     </span>
                   </p>
@@ -77,7 +77,7 @@ const Projects = () => (
                   <h3><a href="work.html">The Next Web</a></h3>
                   <span>Built with HTML</span>
                   <p className="icon">
-                    <span><a href="#"><i className="icon-share3" /></a></span>
+                    <span><a href="#"><i className="icon-link" /></a></span>
                     <span>
                       <a href="#">
                         <i className="icon-eye" />
@@ -87,7 +87,7 @@ const Projects = () => (
                     </span>
                     <span>
                       <a href="#">
-                        <i className="icon-heart" />
+                        <i className="icon-star" />
                         {' '}
                         49
                       </a>
@@ -115,6 +115,13 @@ const Projects = () => (
                         100
                       </a>
                     </span>
+                    <span>
+                      <a href="#">
+                        <i className="icon-star" />
+                        {' '}
+                        5
+                      </a>
+                    </span>
                   </p>
                 </div>
               </div>
@@ -127,7 +134,7 @@ const Projects = () => (
                   <h3><a href="work.html">Quest For Treasure</a></h3>
                   <span> A simple game built with JavaScript.</span>
                   <p className="icon">
-                    <span><a href="#"><i className="icon-share3" /></a></span>
+                    <span><a href="#"><i className="icon-link" /></a></span>
                     <span>
                       <a href="#">
                         <i className="icon-eye" />
@@ -137,7 +144,7 @@ const Projects = () => (
                     </span>
                     <span>
                       <a href="#">
-                        <i className="icon-heart" />
+                        <i className="icon-star" />
                         {' '}
                         49
                       </a>
@@ -157,7 +164,7 @@ const Projects = () => (
                     Features – users, profiles, “friending”, posts, newsfeed, and likes.
                   </span>
                   <p className="icon">
-                    <span><a href="#"><i className="icon-share3" /></a></span>
+                    <span><a href="#"><i className="icon-link" /></a></span>
                     <span>
                       <a href="#">
                         <i className="icon-eye" />
@@ -167,7 +174,7 @@ const Projects = () => (
                     </span>
                     <span>
                       <a href="#">
-                        <i className="icon-heart" />
+                        <i className="icon-star" />
                         {' '}
                         49
                       </a>
