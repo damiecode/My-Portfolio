@@ -39,7 +39,7 @@ const Sidebar = () => (
               {' '}
               by
               {' '}
-              <a href="https://damiecodes.netlify.app/" target="_blank" rel="noreferrer">Damilola Ale</a>
+              <a href="https://damiecodes.netlify.app/" target="_blank" rel="noreferrer noopener">Damilola Ale</a>
             </small>
           </p>
           <ul>

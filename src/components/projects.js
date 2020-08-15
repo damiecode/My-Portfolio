@@ -45,7 +45,10 @@ const Projects = () => (
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">Weather App</a></h3>
-                  <span>Website</span>
+                  <span>
+                    A weather application that shows weather info
+                    on queried location(s) via API from openweathermap.
+                  </span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
@@ -72,7 +75,7 @@ const Projects = () => (
               <div className="desc">
                 <div className="con">
                   <h3><a href="work.html">The Next Web</a></h3>
-                  <span>Illustration</span>
+                  <span>Built with HTML</span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
@@ -98,8 +101,11 @@ const Projects = () => (
             <div className="project" style={{ backgroundImage: 'url(images/img-4.png)' }}>
               <div className="desc">
                 <div className="con">
-                  <h3><a href="work.html">Work 04</a></h3>
-                  <span>Application</span>
+                  <h3><a href="work.html">Calculator App</a></h3>
+                  <span>
+                    A simple calculator app built with React.
+                    It uses Stateful component which are defined using a class.
+                  </span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
@@ -125,8 +131,8 @@ const Projects = () => (
             <div className="project" style={{ backgroundImage: 'url(images/img-5.png)' }}>
               <div className="desc">
                 <div className="con">
-                  <h3><a href="work.html">Work 05</a></h3>
-                  <span>Graphic, Logo</span>
+                  <h3><a href="work.html">Quest For Treasure</a></h3>
+                  <span> A simple game built with JavaScript.</span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
@@ -152,8 +158,11 @@ const Projects = () => (
             <div className="project" style={{ backgroundImage: 'url(images/img-6.png)' }}>
               <div className="desc">
                 <div className="con">
-                  <h3><a href="work.html">Work 06</a></h3>
-                  <span>Web Design</span>
+                  <h3><a href="work.html">Rails Facebook</a></h3>
+                  <span>
+                    A Facebook-like social network application.
+                    Features – users, profiles, “friending”, posts, newsfeed, and likes.
+                  </span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
@@ -174,16 +183,6 @@ const Projects = () => (
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-12 animate-box">
-            <p>
-              <a href="#" className="btn btn-primary btn-lg btn-load-more">
-                Load more
-                <i className="icon-reload" />
-              </a>
-            </p>
           </div>
         </div>
       </div>
