@@ -27,7 +27,21 @@ const Sidebar = () => (
             </ul>
           </div>
         </nav>
-        <nav id="portfolio-main-menu">
+        <div className="portfolio-footer">
+          <p>
+            <small>
+              &copy;
+              Copyright &copy;
+              <script>document.write(new Date().getFullYear());</script>
+              {' '}
+              All rights reserved | Developed
+              <i className="icon-heart" aria-hidden="true" />
+              {' '}
+              by
+              {' '}
+              <a href="https://damiecodes.netlify.app/" target="_blank" rel="noreferrer">Damilola Ale</a>
+            </small>
+          </p>
           <ul>
             <li><a href="https://twitter.com/iamlildamski" target="_blank" rel="noopener noreferrer"><i className="icon-twitter2" /></a></li>
             <li><a href="https://www.instagram.com/dam_eva/" target="_blank" rel="noopener noreferrer"><i className="icon-instagram" /></a></li>
@@ -35,24 +49,8 @@ const Sidebar = () => (
             <li><a href="https://github.com/damiecodes" target="_blank" rel="noopener noreferrer"><i className="icon-github" /></a></li>
             <li><a href="https://medium.com/@codenlyn" target="_blank" rel="noopener noreferrer"><i className="icon-blogger2" /></a></li>
           </ul>
-        </nav>
+        </div>
       </aside>
-      <div className="portfolio-footer">
-        <p>
-          <small>
-            &copy;
-            Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script>
-            {' '}
-            All rights reserved | Developed
-            <i className="icon-heart" aria-hidden="true" />
-            {' '}
-            by
-            {' '}
-            <a href="https://damiecodes.netlify.app/" target="_blank" rel="noreferrer">Damilola Ale</a>
-          </small>
-        </p>
-      </div>
     </div>
   </div>
 );

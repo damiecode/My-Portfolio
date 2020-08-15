@@ -17,7 +17,7 @@ const Projects = () => (
             <div className="project" style={{ backgroundImage: 'url(images/img-1.png)' }}>
               <div className="desc">
                 <div className="con">
-                  <h3><a href="work.html">Work 01</a></h3>
+                  <h3><a href="work.html">Resturant Page</a></h3>
                   <span>Website</span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
@@ -44,8 +44,8 @@ const Projects = () => (
             <div className="project" style={{ backgroundImage: 'url(images/img-2.png)' }}>
               <div className="desc">
                 <div className="con">
-                  <h3><a href="work.html">Work 02</a></h3>
-                  <span>Animation</span>
+                  <h3><a href="work.html">Weather App</a></h3>
+                  <span>Website</span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
                     <span>
@@ -71,7 +71,7 @@ const Projects = () => (
             <div className="project" style={{ backgroundImage: 'url(images/img-3.png)' }}>
               <div className="desc">
                 <div className="con">
-                  <h3><a href="work.html">Work 03</a></h3>
+                  <h3><a href="work.html">The Next Web</a></h3>
                   <span>Illustration</span>
                   <p className="icon">
                     <span><a href="#"><i className="icon-share3" /></a></span>
