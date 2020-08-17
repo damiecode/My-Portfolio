@@ -2,20 +2,20 @@
 // Tables
 // --------------------------------------------------
 
-
 table {
   background-color: $table-bg;
 }
+
 caption {
   padding-top: $table-cell-padding;
   padding-bottom: $table-cell-padding;
   color: $text-muted;
   text-align: left;
 }
+
 th {
   text-align: left;
 }
-
 
 // Baseline styles
 
@@ -64,7 +64,6 @@ th {
   }
 }
 
-
 // Condensed table w/ half padding
 
 .table-condensed {
@@ -80,13 +79,13 @@ th {
   }
 }
 
-
 // Bordered version
 //
 // Add borders all around the table and between all the columns.
 
 .table-bordered {
   border: 1px solid $table-border-color;
+
   > thead,
   > tbody,
   > tfoot {
@@ -97,6 +96,7 @@ th {
       }
     }
   }
+
   > thead > tr {
     > th,
     > td {
@@ -104,7 +104,6 @@ th {
     }
   }
 }
-
 
 // Zebra-striping
 //
@@ -116,7 +115,6 @@ th {
   }
 }
 
-
 // Hover effect
 //
 // Placed here since it has to come after the potential zebra striping
@@ -127,7 +125,6 @@ th {
   }
 }
 
-
 // Table cell sizing
 //
 // Reset default table behavior
@@ -137,6 +134,7 @@ table col[class*="col-"] {
   float: none;
   display: table-column;
 }
+
 table {
   td,
   th {
@@ -147,7 +145,6 @@ table {
     }
   }
 }
-
 
 // Table backgrounds
 //
@@ -160,7 +157,6 @@ table {
 @include table-row-variant('info', $state-info-bg);
 @include table-row-variant('warning', $state-warning-bg);
 @include table-row-variant('danger', $state-danger-bg);
-
 
 // Responsive tables
 //
@@ -209,6 +205,7 @@ table {
           > td:first-child {
             border-left: 0;
           }
+
           > th:last-child,
           > td:last-child {
             border-right: 0;
@@ -228,7 +225,6 @@ table {
           }
         }
       }
-
     }
   }
 }

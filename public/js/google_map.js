@@ -1,4 +1,4 @@
-
+/* eslint-disable */ 
 var google;
 
 function init() {
